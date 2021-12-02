@@ -1,0 +1,36 @@
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .contact-info .phone .icon,
+  .contact-info .email .icon,
+  .contact-info .ads .icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background-color: #F9F9F9;
+    background-position: center;
+    margin: 25px auto 20px auto;
+  }
+  .contact-info .phone .title,
+  .contact-info .email .title,
+  .contact-info .ads .title {
+    font-size: 0.875em;
+    color: #999999;
+    margin-bottom: 5px;
+  }
+  .contact-info .phone .value,
+  .contact-info .email .value,
+  .contact-info .ads .value {
+    line-height: 28px;
+    font-size: 1.25em;
+    color: #3371AA;
+    font-family: 'robotobold', sans-serif;
+    margin-bottom: 25px;
+  }
+  .contact-info .phone .icon {
+    background-image: url('/img/main/contact-phone.png');
+    background-size: 90px 70px;
+    background-repeat: no-repeat;
+  } 

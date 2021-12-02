@@ -1,0 +1,25 @@
+<div *ngIf="platillo">
+  <div class="row">
+    <div class="col-sm-6">
+      <table class="table" *ngIf="platillo">
+        <thead>
+          <tr>
+            <th scope="col">Oden</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let carrito of platillo">
+            <td>{{ carrito.nombre | uppercase }}</td>
+            <td>{{ carrito.precio }}</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6"><b>Total a pagar:$</b> {{ total }}</div>
+  </div>
+</div>
